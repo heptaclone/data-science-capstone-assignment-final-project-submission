@@ -13,7 +13,7 @@ download_data_file <- function(location, data_file) {
 #'
 #' @param location local directory created by unpacking the data file.
 #' @param data_file name of the data file to be used formatted as a character.
-#' @author Jonathan Tieh
+#' @author Stanislav Aladev
 #' @details
 #' This function uncompresses a data file for use in the package
 #' "wordprediction".
