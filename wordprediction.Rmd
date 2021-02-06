@@ -80,7 +80,7 @@ sample_data_file <- function() {
 #' a character giving the language as IETF language tags "de" for German, "en"
 #' for English, "fi" for Finnish, or "ru" for Russian.
 #' @return corpus a volatile text corpus as a "tm" package object
-#' @author Jonathan Tieh
+#' @author Stanislav Aladev
 #' @details
 #' This function reads from a data file as an object of type "corpus" from the
 #' "tm" ppackage. It chooses the files corresponding to the language indicated
@@ -126,7 +126,7 @@ read_data <- function(language) {
 #'
 #' @param corpus a volatile text corpus as a "tm" package object
 #' @return a preprocessed volatile text corpus as a "tm" package object
-#' @author Jonathan Tieh
+#' @author Stanislav Aladev
 #' @details
 #' This function preprocesses a corpus by removing punctuation, numbers, and
 #' English stopwords, and stripping whitespace.
